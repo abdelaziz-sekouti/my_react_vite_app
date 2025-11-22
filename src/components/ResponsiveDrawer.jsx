@@ -148,19 +148,10 @@ export default function PersistentDrawerRight() {
             </IconButton>
           </DrawerHeader>
           <Divider />
-          <List>
-            {/* {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => ( */}
-            <ListItem disablePadding>
-              <ListItemButton>
-                {/* links go here */}
-                <ListItemText />
-              </ListItemButton>
-            </ListItem>
-            {/* ))} */}
-          </List>
+          
           <Divider />
           <List>
-            <ListItem>
+            <ListItem sx={{marginTop:'-15px'}}>
               <ListItemButton>
                 <Link
                   to="/"
@@ -180,53 +171,151 @@ export default function PersistentDrawerRight() {
               </ListItemButton>
             </ListItem>
 
-            <ListItem>
+            <ListItem sx={{marginTop:'-15px'}}>
               <ListItemButton>
-                 <Link to="/about" style={{ textDecoration: "none", color: "inherit" }}>
-            <Button
-              sx={{ fontWeight: "bold", fontFamily: "Roboto", fontSize: "17px" }}
-              color="inherit"
-            >
-              About
-            </Button>
-          </Link>
-
+                <Link
+                  to="/about"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <Button
+                    sx={{
+                      fontWeight: "bold",
+                      fontFamily: "Roboto",
+                      fontSize: "17px",
+                    }}
+                    color="inherit"
+                  >
+                    About
+                  </Button>
+                </Link>
               </ListItemButton>
             </ListItem>
 
-            <ListItem>
+            <ListItem sx={{marginTop:'-15px'}}>
               <ListItemButton>
-                  <Link
-            to="/contact"
-            style={{ textDecoration: "none", color: "inherit" }}
-          >
-            <Button
-              sx={{ fontWeight: "bold", fontFamily: "Roboto", fontSize: "17px" }}
-              color="inherit"
-            >
-              Contact
-            </Button>
-          </Link>
-
+                <Link
+                  to="/contact"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <Button
+                    sx={{
+                      fontWeight: "bold",
+                      fontFamily: "Roboto",
+                      fontSize: "17px",
+                    }}
+                    color="inherit"
+                  >
+                    Contact
+                  </Button>
+                </Link>
               </ListItemButton>
             </ListItem>
 
-              <ListItem>
+            <ListItem sx={{marginTop:'-15px'}}>
               <ListItemButton>
-                  <Link
-            to="/add-blog"
-            style={{ textDecoration: "none", color: "inherit" }}
-          >
-            <Button
-              sx={{ fontWeight: "bold", fontFamily: "Roboto", fontSize: "17px" }}
-              color="inherit"
-            >
-              Add Blog
-            </Button>
-          </Link>
+                <Link
+                  to="/blogs"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <Button
+                    sx={{
+                      fontWeight: "bold",
+                      fontFamily: "Roboto",
+                      fontSize: "17px",
+                    }}
+                    color="inherit"
+                  >
+                    Blogs
+                  </Button>
+                </Link>
+              </ListItemButton>
+            </ListItem>
+            <ListItem sx={{marginTop:'-15px'}}>
+              <ListItemButton>
+                <Link
+                  to="/add-blog"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <Button
+                    sx={{
+                      fontWeight: "bold",
+                      fontFamily: "Roboto",
+                      fontSize: "17px",
+                    }}
+                    color="inherit"
+                  >
+                    Add Blog
+                  </Button>
+                </Link>
               </ListItemButton>
             </ListItem>
 
+            <ListItem sx={{marginTop:'-15px'}}>
+              <ListItemButton>
+                <Link
+                  to="/add-blog"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <Button
+                    sx={{
+                      fontWeight: "bold",
+                      fontFamily: "Roboto",
+                      fontSize: "17px",
+                    }}
+                    color="inherit"
+                  >
+                    Add Blog
+                  </Button>
+                </Link>
+              </ListItemButton>
+            </ListItem>
+
+            <ListItem sx={{marginTop:'-15px'}}>
+              <ListItemButton>
+                <Link
+                  to="/login"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <Button
+                    sx={{
+                      fontWeight: "bold",
+                      fontFamily: "Roboto",
+                      fontSize: "17px",
+                      background: "#d2cc19ff",
+                      marginLeft: 1,
+                      transition: "all .3s",
+                      color: "#fa0808ff",
+                      "&:hover": { background: "#c1b", color: "#fa0" },
+                    }}
+                  >
+                    Login
+                  </Button>
+                </Link>
+              </ListItemButton>
+            </ListItem>
+            <ListItem sx={{marginTop:'-15px'}}>
+              <ListItemButton>
+                <Link
+                  to="/signup"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <Button
+                    sx={{
+                      fontWeight: "bold",
+                      fontFamily: "Roboto",
+                      fontSize: "17px",
+                      background: "#bdd219ff",
+                      marginLeft: 1,
+                      transition: "all .3s",
+                      color: "#fa0808ff",
+                      "&:hover": { background: "#c1b", color: "#fa0" },
+                    }}
+                  >
+                    Signup
+                  </Button>
+                </Link>
+              </ListItemButton>
+            </ListItem>
           </List>
         </Drawer>
       </Box>
