@@ -151,7 +151,7 @@ export default function PersistentDrawerRight() {
           
           <Divider />
           <List>
-            <ListItem sx={{marginTop:'-15px'}}>
+            <ListItem sx={{ }}>
               <ListItemButton>
                 <Link
                   to="/"
@@ -161,7 +161,7 @@ export default function PersistentDrawerRight() {
                     sx={{
                       fontWeight: "bold",
                       fontFamily: "Roboto",
-                      fontSize: "17px",
+                       fontSize: ".7rem",
                     }}
                     color="inherit"
                   >
@@ -171,7 +171,7 @@ export default function PersistentDrawerRight() {
               </ListItemButton>
             </ListItem>
 
-            <ListItem sx={{marginTop:'-15px'}}>
+            <ListItem sx={{ }}>
               <ListItemButton>
                 <Link
                   to="/about"
@@ -181,7 +181,7 @@ export default function PersistentDrawerRight() {
                     sx={{
                       fontWeight: "bold",
                       fontFamily: "Roboto",
-                      fontSize: "17px",
+                       fontSize: ".7rem",
                     }}
                     color="inherit"
                   >
@@ -191,7 +191,7 @@ export default function PersistentDrawerRight() {
               </ListItemButton>
             </ListItem>
 
-            <ListItem sx={{marginTop:'-15px'}}>
+            <ListItem sx={{ }}>
               <ListItemButton>
                 <Link
                   to="/contact"
@@ -201,7 +201,7 @@ export default function PersistentDrawerRight() {
                     sx={{
                       fontWeight: "bold",
                       fontFamily: "Roboto",
-                      fontSize: "17px",
+                       fontSize: ".7rem",
                     }}
                     color="inherit"
                   >
@@ -211,7 +211,7 @@ export default function PersistentDrawerRight() {
               </ListItemButton>
             </ListItem>
 
-            <ListItem sx={{marginTop:'-15px'}}>
+            <ListItem>
               <ListItemButton>
                 <Link
                   to="/blogs"
@@ -221,7 +221,7 @@ export default function PersistentDrawerRight() {
                     sx={{
                       fontWeight: "bold",
                       fontFamily: "Roboto",
-                      fontSize: "17px",
+                       fontSize: ".7rem",
                     }}
                     color="inherit"
                   >
@@ -230,7 +230,8 @@ export default function PersistentDrawerRight() {
                 </Link>
               </ListItemButton>
             </ListItem>
-            <ListItem sx={{marginTop:'-15px'}}>
+             
+            <ListItem sx={{ }}>
               <ListItemButton>
                 <Link
                   to="/add-blog"
@@ -240,7 +241,7 @@ export default function PersistentDrawerRight() {
                     sx={{
                       fontWeight: "bold",
                       fontFamily: "Roboto",
-                      fontSize: "17px",
+                       fontSize: ".7rem",
                     }}
                     color="inherit"
                   >
@@ -250,27 +251,7 @@ export default function PersistentDrawerRight() {
               </ListItemButton>
             </ListItem>
 
-            <ListItem sx={{marginTop:'-15px'}}>
-              <ListItemButton>
-                <Link
-                  to="/add-blog"
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  <Button
-                    sx={{
-                      fontWeight: "bold",
-                      fontFamily: "Roboto",
-                      fontSize: "17px",
-                    }}
-                    color="inherit"
-                  >
-                    Add Blog
-                  </Button>
-                </Link>
-              </ListItemButton>
-            </ListItem>
-
-            <ListItem sx={{marginTop:'-15px'}}>
+            <ListItem sx={{ }}>
               <ListItemButton>
                 <Link
                   to="/login"
@@ -280,7 +261,7 @@ export default function PersistentDrawerRight() {
                     sx={{
                       fontWeight: "bold",
                       fontFamily: "Roboto",
-                      fontSize: "17px",
+                       fontSize: ".7rem",
                       background: "#d2cc19ff",
                       marginLeft: 1,
                       transition: "all .3s",
@@ -293,7 +274,7 @@ export default function PersistentDrawerRight() {
                 </Link>
               </ListItemButton>
             </ListItem>
-            <ListItem sx={{marginTop:'-15px'}}>
+            <ListItem sx={{ }}>
               <ListItemButton>
                 <Link
                   to="/signup"
@@ -303,7 +284,7 @@ export default function PersistentDrawerRight() {
                     sx={{
                       fontWeight: "bold",
                       fontFamily: "Roboto",
-                      fontSize: "17px",
+                       fontSize: ".7rem",
                       background: "#bdd219ff",
                       marginLeft: 1,
                       transition: "all .3s",
