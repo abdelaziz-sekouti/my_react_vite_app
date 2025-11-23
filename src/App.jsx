@@ -21,8 +21,8 @@ function App() {
 
   return (
     <>
-      <ResponsiveDrawer/> 
-      <ToastContainer position="top-center" autoClose={300} />
+        <ResponsiveDrawer/> 
+        <ToastContainer position="top-center" autoClose={300} />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/blog_react" element={<Home />}></Route>
